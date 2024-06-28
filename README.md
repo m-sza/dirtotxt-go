@@ -16,13 +16,7 @@ GoTxt is a command-line tool written in Go that generates a text file containing
 
 2. Clone this repository.
 
-3. Create a batch file named `gotxt.bat` in the same directory as `gotxt.go` with the following content:
-   ```batch
-   @echo off
-   go run %~dp0gotxt.go %*
-   ```
-
-4. Add the directory containing `gotxt.go` and `gotxt.bat` to PATH:
+3. Add the directory containing `gotxt.go` and `gotxt.bat` to PATH:
 
 ## Usage
 
